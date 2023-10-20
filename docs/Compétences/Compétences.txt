@@ -1,0 +1,77 @@
+Rampant : Vitesse de déplacement augmentée de 100% lorsque vous êtes à terre et de 50% dans les ventilations
+Coûte 1 Jetons de Rituels 
+
+Accélération :
+Vitesse de déplacement augmentée de 20% 30% pendant 20 secondes après avoir été ranimé
+Coûte 1 Jetons de Rituels 
+
+Longue vue :
+Tous les objets sont mis en évidence à une distance supérieur de 50% 60%
+Coûte 1 Jetons de Rituels 
+
+Quartier-maïtre :
+Les trousses de soins sont mis en évidence à travers les murs
+Coûte 1 Jetons de Rituels 
+
+Ravitailleur :
+Vitesse de mouvement augmentée de 15% lorsque vous transportez un objet rituel
+Coûte 1 Jetons de Rituels 
+
+Rapidité :
+Vitesse de mouvement augmentée de 7%
+Coûte 1 Jetons de Rituels 
+
+Régénération :
+La charge UV se régénère 50% plus vite (ne fonctionne pas en mode Cauchemar)
+Coûte 3 Jetons de Rituels
+
+Médecin de terrain :
+Réanimation des joueurs 50 70% plus rapide
+Coûte 3 Jetons de Rituels  
+
+Pleine charge :
+La charge UV n'est pas consommée durant 20 secondes après l'utilisation d'une pile
+Coûte 3 Jetons de Rituels 
+
+Chef d'équipe :
+Les interactions longues (y compris la réanimation) sont 100% plus rapides lorsqu'elles sont effectuées à moins de 5 mètres d'un joueur vivant
+Coûte 3 Jetons de Rituels 
+
+Chasseur :
+Le dernier objet rituel est mis en évidence
+Coûte 5 Jetons de Rituels 
+
+Evadé :
+Vitesse de déplacement augmentée de 25% lorsque vous êtes poursuivi par Azazel
+Coûte 5 Jetons de Rituels 
+
+Répulsif :
+La vitesse de déplacement des serviteurs d'Azazel est réduite de 50% à proximité
+Coûte 3 Jetons de Rituels 
+
+
+Suralimenté :
+Vitesse de déplacement augmentée de 30% pendant 20 secondes après utilisation d'une pile
+Coûte 5 Jetons de Rituels 
+
+Travailleur Rapide :
+Les interactions longues (sans compter la réanimation) sont 50 % plus rapides
+Coûte 3 Jetons de Rituels 
+
+Sous Pression :
+Les interactions longues (y compris la réanimation) sont 150 % plus rapides lorsque le dernier joueur est en vie (coop uniquement)
+Coûte 5 Jetons de Rituels 
+
+Immunisé :
+Vitesse de déplacement réduite de 70 % en cas de ralentissement par les ennemies
+Coûte 3 Jetons de Rituels 
+
+
+Puissante Perspicacité :
+Les piles sont mises en valeur à travers les murs
+Coûte 3 Jetons de Rituels 
+
+
+Écologiste :
+La charge UV se régénère 80% plus rapidement lorsque la lampe de poche est éteinte (ne fonctionne pas en mode Cauchemar)
+Coûte 5 Jetons de Rituels 

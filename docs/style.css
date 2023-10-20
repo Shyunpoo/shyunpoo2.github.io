@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+      font-family: 'Melted Monster';
+      src: url('Polices/Melted Monster.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'devilcandle2';
+    src: url('Polices/devilcandle2.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Halloween';
+    src: url('Polices/Halloween.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelpMe';
+    src: url('Polices/HelpMe.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fear';
+    src: url('Polices/Fears.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+body :not(nav):not(footer) {
+    margin: 25px;
+    padding: 0;
+}
+/* Menu */
+nav {
+    background-color: rgba(59, 53, 52, 0.5);
+    font-family: 'Melted Monster', sans-serif;
+    font-size: 24px; 
+}
+  
+.logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+  
+nav a {
+    text-decoration: none; 
+    color: white;
+    font-size: 18px;
+}
+  
+nav a:hover {
+    color:red;
+}
+  
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    margin: 25px !important;
+    display: inline;
+}
+
+/* Haut de Page */
+.Haut {
+    display: block;
+    margin: 0 auto;
+}
+
+.HautPage p {
+    font-family: 'Melted Monster', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 45px;
+    max-width: 600px;
+    color: white;
+}
+
+/* A propos */
+.Informations {
+    font-family: 'devilcandle2', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.texte-avec-image {
+    background-image: url("fondsang1.png"); /* Chemin de votre image de fond */
+    background-size: contain; /* Ajuste la taille de l'image au conteneur */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat;
+   background-size: 70%;
+    padding: 150px; /* Marge intérieure pour le texte */
+}
+
+
+.texte-avec-image p {
+    background-color: rgba(255, 255, 255, 0); /* Arrière-plan du texte semi-transparent */
+    padding: 300px; /* Marge interne pour le texte */
+    margin: 0; /* Supprime la marge extérieure du paragraphe par défaut */
+}
+
+.Progression p {
+    color: white;
+    font-size: 40px;
+
+    
+}
+.Progression {
+    overflow: hidden; /* Cache le contenu en dehors du conteneur */
+}
+
+/* slider des maps et de la progression des niveaux */
+
+.slider {
+    display: flex; /* Utilise un affichage flexible pour les images */
+    overflow-x: auto; /* Permet de faire défiler horizontalement */
+    white-space: nowrap; /* Empêche le retour à la ligne */
+    scroll-behavior: smooth; /* Ajoute un défilement fluide */
+}
+.slider2 {
+    display: flex; /* Utilise un affichage flexible pour les images */
+    overflow-x: auto; /* Permet de faire défiler horizontalement */
+    white-space: nowrap; /* Empêche le retour à la ligne */
+    scroll-behavior: smooth; /* Ajoute un défilement fluide */
+}
+
+.slider2 img {
+    width: 50%; /* Assure que chaque image s'adapte à la largeur du conteneur */
+    height: 100%; /* Maintient le ratio hauteur-largeur */
+    }
+.slider img {
+        width: 100%; /* Assure que chaque image s'adapte à la largeur du conteneur */
+        height: 170px; /* Maintient le ratio hauteur-largeur */
+    }
+
+/* Maps */
+
+.Maps h1 {
+    font-family: 'HelpMe', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Maps h1:hover {
+    color: red;
+}
+
+.Maps p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Fear', sans-serif;
+    text-align: center;
+}
+
+/* Personnages */
+.Personnages img {
+    margin-left: 600px;
+}
+
+.Personnages p {
+    color: white;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-right: 700px;
+    font-family: 'devilcandle2', sans-serif;
+}
+
+/* Bonus */
+.Bonus {
+    font-family: 'Melted Monster', sans-serif;
+    color: white;
+}
+
+.Bonus p {
+    color: white;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-right: 700px;
+    font-family: 'devilcandle2', sans-serif;
+}
+
+.Bonus p:hover {
+    color: red;
+}
+
+/* Footer (réseaux sociaux) */
+footer {
+    background-color: rgba(59, 53, 52, 0.5);
+    padding: 20px 0;
+    font-size: 24px; 
+    text-align: center;
+}
+
+footer .Contenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .StraightGame .SocialMedia {
+    width: 45%;
+}
+
+footer .SocialMedia {
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+footer .StraightGame {
+    padding-left: 20px;
+}
+
+footer img {
+    width: 50px;
+}
+
+.contact-form {
+    background-color: rgba(59, 53, 52, 0.5);
+    padding: 20px;
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    font-family: 'Melted Monster', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-family: 'devilcandle2', sans-serif;
+    font-size: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background: red;
+    color: black;
+    border-radius: 5px;
+    border-style: round;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-style: round;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px; 
+    border-radius: 8px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 8px; 
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 8px; 
+}
+
+scrollbar-width: thin; 
+scrollbar-color: red black; 
+
+
+scrollbar-base-color: black; 
+scrollbar-face-color: red; 
+
+-ms-overflow-style: none; 
+scrollbar-width: thin; 
+scrollbar-color: red black; 
+
+/* Styles pour la version mobile */
+@media (max-width: 768px) {
+    .menu-list {
+        text-align: center;
+    }
+    
+    .menu-list li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.video1 {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+
+    height: 100vh;
+}
+.videopar {
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.b1 {
+    color: white;
+    font-family: 'Melted Monster', sans-serif;
+    font-size: 30px;
+    margin-left: 44px;
+    margin-right: 300px;
+
+}
